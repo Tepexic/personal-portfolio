@@ -1,5 +1,5 @@
 {
-  "name": "tepexic",
+  "name": "Tepexic",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,9 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
+    "autoprefixer": "^9.6.1",
+    "@fullhuman/postcss-purgecss": "^1.2.0",
+    "tailwindcss": "^1.0.4",
     "vue": "^2.6.11"
   },
   "devDependencies": {
