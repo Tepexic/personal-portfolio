@@ -1,5 +1,6 @@
 <template>
 <div>
+  <!--icons by https://iconmonstr.com/ -->
   <!-- About Me -->
   <div class="container-inner mx-auto py-16" id="about">
     <p class="text-lg sm:text-xl text-justify"> I'm based in Mexico (UTC-5). When I'm away from keyboard, I like to cook, play football,
@@ -7,7 +8,7 @@
       movies, videogames and TV shows. <br>
     </p>
     <p class="text-lg sm:text-xl text-center">
-      <a href="images/CV_JesusVelazquez.pdf" target="_blank">
+      <a href="images/CV_JesusVelazquez.pdf" target="_blank" class="cv">
         Here's a PDF version of my CV (92kb)
       </a>
     </p>
@@ -20,82 +21,55 @@
     </p>
     <div class="grid grid-cols-3 gap-4 mt-3 flex items-center">
       <div class="w-16 mx-auto">
-        <img src="images/tech-logos/html.svg" alt="mobile">
+        <img src="images/tech-logos/html.svg" alt="HTML 5">
       </div>
       <div class="w-16 mx-auto">
-        <img src="images/tech-logos/css.svg" alt="mobile">
+        <img src="images/tech-logos/css.svg" alt="CSS 3">
       </div>
       <div class="w-16 mx-auto">
-        <img src="images/tech-logos/js.svg" alt="mobile">
+        <img src="images/tech-logos/js.svg" alt="Javascript">
       </div>
       <div class="w-16 mx-auto">
-        <img src="images/tech-logos/vue.svg" alt="mobile">
+        <img src="images/tech-logos/vue.svg" alt="VueJS">
       </div>
       <div class="w-16 mx-auto">
-        <img src="images/tech-logos/react.svg" alt="mobile">
+        <img src="images/tech-logos/react.svg" alt="ReactJS">
       </div>
       <div class="w-16 mx-auto">
-        <img src="images/tech-logos/node.svg" alt="mobile">
+        <img src="images/tech-logos/node.png" alt="NodeJS">
       </div>
       <div class="w-16 mx-auto">
-        <img src="images/tech-logos/electron.svg" alt="mobile">
+        <img src="images/tech-logos/electron.svg" alt="ElectronJS">
       </div>
       <div class="w-16 mx-auto">
-        <img src="images/tech-logos/plotly.svg" alt="mobile">
+        <img src="images/tech-logos/plotly.svg" alt="Plotly">
       </div>
       <div class="w-16 mx-auto">
-        <img src="images/tech-logos/bootstrap.svg" alt="mobile">
+        <img src="images/tech-logos/bootstrap.svg" alt="Bootstrap">
       </div>
       <div class="w-16 mx-auto">
-        <img src="images/tech-logos/tailwind.svg" alt="mobile">
+        <img src="images/tech-logos/tailwind.svg" alt="TailwindCSS">
       </div>
       <div class="w-16 mx-auto">
-        <img src="images/tech-logos/git.svg" alt="mobile">
+        <img src="images/tech-logos/git.svg" alt="Git">
       </div>
       <div class="w-16 mx-auto">
-        <img src="images/tech-logos/github.svg" alt="mobile">
+        <img src="images/tech-logos/github.png" alt="GitHub">
       </div>
       <div class="w-16 mx-auto">
-        <img src="images/tech-logos/python.svg" alt="mobile">
+        <img src="images/tech-logos/python.svg" alt="Python">
       </div>
       <div class="w-16 mx-auto">
-        <img src="images/tech-logos/matlab.png" alt="mobile">
+        <img src="images/tech-logos/matlab.png" alt="Matlab">
       </div>
       <div class="w-16 mx-auto">
-        <img v-if="theme === 'theme-light'" src="images/tech-logos/latex.svg" alt="mobile">
-        <img v-else src="images/tech-logos/latex-dark.svg" alt="mobile">
+        <img v-if="theme === 'theme-light'" src="images/tech-logos/latex.svg" alt="Latex">
+        <img v-else src="images/tech-logos/latex-dark.svg" alt="Latex">
       </div>
     </div>
   </div>
   </div>
 
-  <footer class="bg-blue-800 text-white px-4">
-    <div class="container mx-auto flex flex-col sm:flex-row items-center justify-between py-8">
-      <div class="mb-8 sm:mb-0">
-        Mexico, 2020.
-      </div>
-      <ul class="flex items-center space-x-8">
-        <li>
-          <a href="mailto:tepexic@tepexic.com" target="_blank">
-            <i class="fa fa-envelope-square fa-3x mx-1 text-blue-100 hover:text-blue-300 cursor-pointer"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/jesusavelazquez" target="_blank">
-            <i class="fab fa-linkedin fa-3x mx-1 text-blue-100 hover:text-blue-300 cursor-pointer"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/Tepexic" target="_blank">
-            <i class="fab fa-github-square fa-3x mx-1 text-blue-100 hover:text-blue-300 cursor-pointer"></i>
-          </a>
-        </li>
-          <a href="https://twitter.com/tepexic" target="_blank">
-            <i class="fa fa-twitter-square fa-3x mx-1 text-blue-100 hover:text-blue-300 cursor-pointer"></i>
-          </a>
-      </ul>
-    </div>
-  </footer>
 
 </div>
 </template>

@@ -3,7 +3,7 @@
     <Navigation :theme="theme" @themeChanged="updateTheme"/>
     <Hero/>
     <Content :theme="theme"/>
-    <Footer/>
+    <Foot/>
   </div>
 </template>
 
@@ -12,7 +12,7 @@
 import Hero from './components/Hero'
 import Navigation from './components/Navigation'
 import Content from './components/Content'
-import Footer from './components/Footer'
+import Foot from './components/Foot'
 
 export default {
   name: 'App',
@@ -27,7 +27,7 @@ export default {
     Navigation,
     Hero,
     Content,
-    Footer,
+    Foot,
   },
 
   methods: {
