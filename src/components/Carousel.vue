@@ -4,7 +4,26 @@
     <!--Slide 1-->
     <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
 		<div class="carousel-item absolute opacity-0" style="height:50vh;">
-      <div class="block h-full w-full bg-indigo-500 text-white text-5xl text-center">Slide 1</div>
+      <div class="block h-full w-full bg-indigo-500 text-white text-5xl text-center">
+				<div class="max-w-sm rounded overflow-hidden shadow-lg">
+					<a href="app/dollar-vue/index.html" target="_blank" rel="noopener">
+						<img class="w-full" src="images/dollar-vue.png" alt="title">
+					</a>
+					<div class="px-6 py-4">
+						<div class="font-bold text-xl mb-2">$ Vue</div>
+						<p class="text-gray-700 text-base text-justify">
+							Vue app to keep account balance. Uses Vuex and Router. Final project of Scrimba's Vue Bootcamp.
+						</p>
+					</div>
+					<div class="px-6 py-4">
+						<span class="inline-block bg-gray-900 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2">
+							<a href="app/dollar-vue/index.html" target="_blank" rel="noopener">
+								Live Demo
+							</a>
+						</span>
+					</div>
+				</div>
+			</div>
 		</div>
 		<label for="carousel-3" class="prev control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">‹</label>
 		<label for="carousel-2" class="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">›</label>
@@ -54,7 +73,8 @@ export default {
   components: {
     CarNavigation,
     Horse,
-  }
+	},
+	
 
 }
 </script>

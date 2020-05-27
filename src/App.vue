@@ -1,8 +1,8 @@
 <template>
-  <div id="app" content-wrapper font-sans bg-background-primary text-copy-primary leading-relaxed flex flex-col min-h-screen theme-light>
-    <Navigation/>
+  <div id="app" class="content-wrapper bg-background-primary font-sans text-copy-primary leading-normal flex flex-col min-h-screen" :class="theme">
+    <Navigation :theme="theme" @themeChanged="updateTheme"/>
     <Hero/>
-    <Content/>
+    <Content :theme="theme"/>
     <Footer/>
   </div>
 </template>
@@ -17,14 +17,31 @@ import Footer from './components/Footer'
 export default {
   name: 'App',
 
+  data: function () {
+    return {
+      theme: '',
+    }
+  },
+
   components: {
     Navigation,
     Hero,
     Content,
     Footer,
+  },
+
+  methods: {
+    updateTheme(theme) {
+      this.theme = theme
     }
+  },
+
+  mounted() {
+    this.theme = localStorage.getItem('theme') || 'theme-light'
+  },
 }
 </script>
 
-<style src="./assets/styles.css">
+<style>
+@import './assets/styles.css'
 </style>
