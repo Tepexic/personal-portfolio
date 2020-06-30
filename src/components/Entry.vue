@@ -8,7 +8,7 @@
     <p class="mt-2">{{ description }}</p>
   </div>
   <div class="flex justify-end mt-4">
-    <router-link :to="'/blog/' + link" class="text-xl text-copy-secondary">Leer</router-link>
+    <router-link :to="'/blog/post/' + link" class="text-xl text-copy-secondary">Leer</router-link>
   </div>
 </div>
 </template>

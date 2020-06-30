@@ -1,6 +1,6 @@
-# Vidisse fluere
+# Recursos gratuitos para desarrollo web
 
-## Ego lacertos pabula patriam
+## Hosting gratuito para tus apps o tu sitio personal
 
 Lorem markdownum iuvenesque erat positasque prolem potui **praecepta cernit
 locuta**, totidem ore infantibus grata nec. Area ostentis Halcyoneus cineres et
