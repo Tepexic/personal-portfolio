@@ -6,13 +6,13 @@
 /*https://zocada.com/dark-and-light-theme-switcher-using-css-variables-and-pure-javascript/*/
 .theme-light {
   --bg-background-primary: white;
-  --bg-background-secondary: #f7fafc;
-  --bg-background-tertiary: #e2e8f0;
+  --bg-background-secondary: #F8FAFC;
+  --bg-background-tertiary: #F1F5F8;
 
   --bg-background-form: white;
 
-  --text-copy-primary: #2d3748;
-  --text-copy-secondary: #4a5568;
+  --text-copy-primary: #3D4852;
+  --text-copy-secondary: #606F7B;
 
   --border-border-color-primary: white;
 
