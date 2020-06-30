@@ -13,7 +13,14 @@ import Content from './../components/Content'
 import Foot from './../components/Foot'
 
 export default {
-  name: 'main',
+  name: 'index',
+
+  props: {
+    theme: {
+      type: String,
+      required: true,
+    }
+  },
 
   components: {
     Hero,

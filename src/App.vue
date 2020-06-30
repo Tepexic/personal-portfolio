@@ -1,12 +1,8 @@
 <template>
   <div id="app" class="content-wrapper bg-background-primary font-sans text-copy-primary leading-normal flex flex-col min-h-screen" :class="theme">
     <Navigation :theme="theme" @themeChanged="updateTheme"/>
-    <!--
-    <Hero/>
-    <Content :theme="theme"/>
-    -->
     <transition name="moveUp" mode="out-in">
-      <router-view/>
+      <router-view :theme="theme"/>
     </transition>
   </div>
 </template>

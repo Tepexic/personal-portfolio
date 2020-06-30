@@ -1,11 +1,31 @@
 <template>
-  <div>
-    BLOG
+  <div class="flex items-center justify-center flex-wrap">
+    <Entry v-for="e in entries" :key="e.id" :title="e.title" :date="e.date" :description="e.description" :link="e.id"/>
   </div>
 </template>
 
 <script>
+
+import posts from './../assets/posts.json'
+import Entry from './../components/Entry'
+
+const blogEntries = []
+Object.keys(posts).map(section => {
+  posts[section].forEach(entry => {blogEntries.push(entry)})
+})
+
 export default {
+  name: 'Blog',
+
+  data: function () {
+    return {
+      entries: blogEntries
+    }
+  },
+
+  components: {
+    Entry 
+  }
 
 }
 </script>
