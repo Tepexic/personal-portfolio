@@ -1,5 +1,5 @@
 <template>
-  <div class="w-8/12 py-4 px-8 shadow-lg rounded-lg my-10 mx-5 border-2 border-gray-300">
+  <div class="w-full py-4 px-8 shadow-lg rounded-lg my-10 mx-5 border-2 border-gray-300">
   <div>
     <h2 class="text-3xl font-semibold text-blue-700 leading-tight"> {{ title }} </h2>
     <div class="mt-1 text-right text-xs">

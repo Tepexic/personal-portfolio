@@ -1,5 +1,5 @@
 <template>  
-  <div class="p-8">
+  <div class="container-inner mx-auto py-16">
     <router-view></router-view>
   </div>
 </template>
@@ -11,6 +11,11 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+
+h1 {
+  margin-bottom: 6rem;
+  color: blue;
+}
 
 </style>

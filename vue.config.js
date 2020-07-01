@@ -1,5 +1,5 @@
 module.exports = {
-  chainWebpack(config){
+  chainWebpack: config => {
     config.module.rule('md')
       .test(/\.md/)
       .use('vue-loader')
@@ -8,7 +8,9 @@ module.exports = {
       .use('vue-markdown-loader')
       .loader('vue-markdown-loader/lib/markdown-compiler')
       .options({
-        raw: true
+        raw: true,
+        wrapper: 'article',
+        preventExtract: true
       })
   }
 }

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container-inner mx-auto py-16">
     PROJECTS
   </div>
 </template>

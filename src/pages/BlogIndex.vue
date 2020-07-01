@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center justify-center flex-wrap">
+  <div class="flex-wrap items-center justify-center">
     <Entry v-for="e in entries" :key="e.id" :title="e.title" :date="e.date" :description="e.description" :link="e.id"/>
   </div>
 </template>
