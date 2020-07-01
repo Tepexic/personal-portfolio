@@ -1,6 +1,7 @@
 <template>  
-  <div class="container-inner mx-auto py-16">
-    <router-view></router-view>
+  <div class="container-inner mx-auto py-16 blog">
+    <router-view>
+    </router-view>
   </div>
 </template>
 
@@ -12,10 +13,24 @@ export default {
 </script>
 
 <style scoped>
-
+.blog >>> 
 h1 {
-  margin-bottom: 6rem;
-  color: blue;
+  @apply font-semibold leading-loose mb-4 text-4xl;
 }
-
+.blog >>> 
+h2 {
+  @apply font-semibold leading-relaxed mb-2 text-xl;
+}
+.blog >>>
+p {
+  @apply my-1
+}
+.blog >>>
+ul {
+  @apply my-2;
+}
+.blog >>>
+li {
+  @apply list-disc list-inside;
+}
 </style>
