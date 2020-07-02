@@ -1,6 +1,6 @@
 <template>
   <div 
-    class="w-full py-2 px-4 my-6 shadow-lg rounded-lg border-2 border-gray-300 lg:my-8 lg:py-4 lg:px-8"
+    class="w-full py-2 px-4 my-6 shadow-lg rounded-lg border-2 border-gray-300 lg:my-10 lg:py-4 lg:px-8"
   >
   <div>
     <div class="text-3xl font-semibold text-blue-700 leading-relaxed text-center">
@@ -24,7 +24,9 @@
     </div>
   </div>
   <div class="flex justify-end mt-4">
-    <router-link :to="'/blog/post/' + link" class="text-xl text-copy-secondary">Leer</router-link>
+    <router-link :to="'/blog/post/' + link" class="text-xl text-copy-secondary border-2 border-gray-500 rounded px-8 py-1 hover:bg-gray-300">
+      Leer
+    </router-link>
   </div>
 </div>
 </template>

@@ -1,5 +1,5 @@
 <template>  
-  <div class="container-inner mx-auto lg:py-16 xl:py-16 md:py-16 py-10 blog">
+  <div class="container mx-auto flex flex-col sm:flex-row py-8 blog">
     <router-view>
     </router-view>
   </div>
