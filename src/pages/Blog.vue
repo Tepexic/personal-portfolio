@@ -1,7 +1,8 @@
 <template>  
-  <div class="container mx-auto flex flex-col sm:flex-row py-8 blog">
-    <router-view>
-    </router-view>
+  <div class="container md:container-inner lg:container-inner xl:container-inner mx-auto flex justify-center sm:flex-row py-8 px-8 blog">
+    <transition name="moveUp" mode="out-in">
+      <router-view/>
+    </transition>
   </div>
 </template>
 
@@ -66,12 +67,12 @@ td {
 
 .blog >>>
 a {
-  @apply font-semibold text-teal-600;
+  @apply font-semibold text-blue-500;
 }
 
 .blog >>>
 a:hover {
-  @apply font-bold text-teal-800;
+  @apply font-bold text-blue-400;
 }
 
 </style>

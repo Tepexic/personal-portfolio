@@ -1,8 +1,10 @@
 <template>
-  <div class="flex-wrap items-center justify-center w-full">
-    <Entry v-for="e in entries" :key="e.id"
-      :title="e.title" :date="e.date" :description="e.description"
-      :link="e.id" :tags="e.tags"/>
+  <div class="container md:container-inner lg:container-inner xl:container-inner">
+    <div class="flex-wrap items-center justify-center w-full">
+      <Entry v-for="e in entries" :key="e.id"
+        :title="e.title" :date="e.date" :description="e.description"
+        :link="e.id" :tags="e.tags"/>
+    </div>
   </div>
 </template>
 
@@ -28,6 +30,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+a {
+    color: #1c75bc;
+}
 </style>
