@@ -1,11 +1,27 @@
 <template>
-  <div class="w-full py-4 px-8 shadow-lg rounded-lg my-10 mx-5 border-2 border-gray-300">
+  <div 
+    class="w-full py-2 px-4 my-6 shadow-lg rounded-lg border-2 border-gray-300 lg:my-8 lg:py-4 lg:px-8"
+  >
   <div>
-    <h2 class="text-3xl font-semibold text-blue-700 leading-tight"> {{ title }} </h2>
+    <div class="text-3xl font-semibold text-blue-700 leading-relaxed text-center">
+      {{ title }}
+    </div>
     <div class="mt-1 text-right text-xs">
       {{ date }}
     </div>
-    <p class="mt-2">{{ description }}</p>
+    <div class="mt-2 flex items-start">
+      <div
+        v-for="(t, i) in tags"
+        :key="t"
+        :class = "['border-'+colors[i]+'-500', 'bg-'+colors[i]+'-500']"
+        class = "text-xs uppercase rounded-full border-2 text-white font-semibold py-1 px-4 mx-1 shadow-md"
+        >
+        {{t}}
+      </div>
+    </div>
+    <div class="mt-2">
+      {{ description }}
+    </div>
   </div>
   <div class="flex justify-end mt-4">
     <router-link :to="'/blog/post/' + link" class="text-xl text-copy-secondary">Leer</router-link>
@@ -16,6 +32,12 @@
 <script>
 export default {
   name: 'Entry',
+
+  data: function () {
+    return {
+      colors: ["orange", "indigo", "purple", "pink", "teal", "green", "red", "yellow"]
+    }
+  },
 
   props: {
     title: {
@@ -33,6 +55,10 @@ export default {
     link: {
       type: String,
       default: '/blog'
+    },
+    tags: {
+      type: Array,
+      default: () => {["Post","resources", "webdev", "hosting","Post","resources", "webdev", "hosting"]},
     }
   },
 }

@@ -19,47 +19,47 @@
     <p class="text-lg sm:text-xl mb-6">
       <span class="font-semibold">These are some of the technologies I've worked with:</span>
     </p>
-    <div class="grid grid-cols-3 gap-4 mt-3 flex items-center">
-      <div class="w-16 mx-auto">
+    <div class="grid grid-cols-3 gap-4 mt-3">
+      <div class="w-16 mx-auto flex items-center">
         <img src="images/tech-logos/html.svg" alt="HTML 5">
       </div>
-      <div class="w-16 mx-auto">
+      <div class="w-16 mx-auto flex items-center">
         <img src="images/tech-logos/css.svg" alt="CSS 3">
       </div>
-      <div class="w-16 mx-auto">
+      <div class="w-16 mx-auto flex items-center">
         <img src="images/tech-logos/js.svg" alt="Javascript">
       </div>
-      <div class="w-16 mx-auto">
+      <div class="w-16 mx-auto flex items-center">
         <img src="images/tech-logos/vue.svg" alt="VueJS">
       </div>
-      <div class="w-16 mx-auto">
+      <div class="w-16 mx-auto flex items-center">
         <img src="images/tech-logos/react.svg" alt="ReactJS">
       </div>
-      <div class="w-16 mx-auto">
+      <div class="w-16 mx-auto flex items-center">
         <img src="images/tech-logos/node.png" alt="NodeJS">
       </div>
-      <div class="w-16 mx-auto">
+      <div class="w-16 mx-auto flex items-center">
         <img src="images/tech-logos/electron.svg" alt="ElectronJS">
       </div>
-      <div class="w-16 mx-auto">
+      <div class="w-16 mx-auto flex items-center">
         <img src="images/tech-logos/plotly.svg" alt="Plotly">
       </div>
-      <div class="w-16 mx-auto">
+      <div class="w-16 mx-auto flex items-center">
         <img src="images/tech-logos/bootstrap.svg" alt="Bootstrap">
       </div>
-      <div class="w-16 mx-auto">
+      <div class="w-16 mx-auto flex items-center">
         <img src="images/tech-logos/tailwind.svg" alt="TailwindCSS">
       </div>
-      <div class="w-16 mx-auto">
+      <div class="w-16 mx-auto flex items-center">
         <img src="images/tech-logos/git.svg" alt="Git">
       </div>
-      <div class="w-16 mx-auto">
+      <div class="w-16 mx-auto flex items-center">
         <img src="images/tech-logos/github.png" alt="GitHub">
       </div>
-      <div class="w-16 mx-auto">
+      <div class="w-16 mx-auto flex items-center">
         <img src="images/tech-logos/python.svg" alt="Python">
       </div>
-      <div class="w-16 mx-auto">
+      <div class="w-16 mx-auto flex items-center">
         <img src="images/tech-logos/matlab.png" alt="Matlab">
       </div>
       <div class="w-16 mx-auto">
