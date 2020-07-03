@@ -1,7 +1,9 @@
 <template>  
-  <div class="container md:container-inner lg:container-inner xl:container-inner mx-auto flex justify-center sm:flex-row py-8 px-8 blog">
+  <div
+    class="container md:container-inner lg:container-inner xl:container-inner mx-auto flex justify-center sm:flex-row py-8 px-8"
+    :class="[currentPage.includes('post') ? 'blog' : '']">
     <transition name="moveUp" mode="out-in">
-      <router-view/>
+      <router-view />
     </transition>
   </div>
 </template>
@@ -10,6 +12,13 @@
 
 export default {
   name: 'Blog',
+
+  computed: {
+    currentPage() {
+      console.log(this.$route.path)
+      return this.$route.path
+    }
+  }
 }
 </script>
 
@@ -75,4 +84,8 @@ a:hover {
   @apply font-bold text-blue-400;
 }
 
+.blog >>>
+img {
+  @apply w-4/5 p-8 rounded-lg shadow-lg border-2 border-gray-300 m-auto;
+}
 </style>

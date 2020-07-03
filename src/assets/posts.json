@@ -4,24 +4,16 @@
       "id": "learn-web-dev",
       "date": "30 de Junio, 2020",
       "title": "Aprende desarrollo web",
-      "description": "Recursos gratuitos para aprender desarrollo de aplicaciones web",
+      "author": "Pedro Paramo",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       "tags": ["resources", "webdev", "hosting"]
     },
     {
       "id": "learn-web-dev2",
       "date": "1 de Ju1io, 2020",
       "title": "Aprende mas desarrollo web",
-      "description": "Casle 1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       "tags": ["resources", "webdev"]
-    }
-  ],
-  "2021": [
-    {
-      "id": "test",
-      "date": "20 de Diciembre, 2021",
-      "title": "Prueba del futuro",
-      "description": "El mundo ya no existe",
-      "tags": ["resources", "webdev", "VueJS"]
     }
   ]
 }
