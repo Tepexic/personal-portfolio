@@ -1,10 +1,10 @@
 <template>
   <div class="py-2 px-4 my-6 shadow-lg rounded-lg border-2 border-gray-300 lg:my-10 lg:py-4 lg:px-8">
     <div class="sm:flex-wrap md:flex">
-      <img class="w-full rounded-lg my-2 md:w-1/3 lg:w-3/12 xl:w-2/12"
+      <img class="w-full rounded-lg my-2 md:w-1/3 lg:w-3/12 xl:w-3/12"
         :alt="title"
         :src="hero">
-      <div class="w-full md:w-2/3 md:py-2 md:pl-4 md:pr-2 lg:w-9/12 xl:w-10/12">
+      <div class="w-full md:w-2/3 md:py-2 md:pl-4 md:pr-2 lg:w-9/12 xl:w-9/12">
         <!--title-->
         <router-link :to="'/blog/post/' + link" class="text-3xl font-semibold text-blue-700 leading-relaxed text-center">
           {{ title }}

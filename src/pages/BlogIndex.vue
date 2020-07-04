@@ -4,6 +4,7 @@
       <Entry v-for="e in entries" :key="e.id"
         :title="e.title" :author="e.author"
         :date="e.date" :description="e.description"
+        :hero="e.hero"
         :link="e.id" :tags="e.tags"/>
     </div>
   </div>

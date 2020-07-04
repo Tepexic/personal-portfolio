@@ -1,7 +1,7 @@
 <template>  
   <div
-    class="container md:container-inner lg:container-inner xl:container-inner mx-auto flex justify-center sm:flex-row py-8 px-8"
-    :class="[currentPage.includes('post') ? 'blog' : '']">
+    class="mx-auto flex justify-center sm:flex-row py-8 px-8"
+    :class="[currentPage.includes('post') ? 'blog container-inner' : 'container']">
     <transition name="moveUp" mode="out-in">
       <router-view />
     </transition>
@@ -15,7 +15,6 @@ export default {
 
   computed: {
     currentPage() {
-      console.log(this.$route.path)
       return this.$route.path
     }
   }
@@ -23,7 +22,7 @@ export default {
 </script>
 
 <style scoped>
-
+ 
 .blog >>> 
 h1 {
   @apply font-semibold leading-relaxed my-8 text-4xl;

@@ -1,6 +1,6 @@
 <template>
   <div class="container-inner mx-auto py-16">
-    PROJECTS
+    Working on it!
   </div>
 </template>
 
