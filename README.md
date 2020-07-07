@@ -1,5 +1,7 @@
 # tepexic
 
+This is a personal portfolio, built with Vue and TailwindCSS. Uses Vue Router and injects blog posts automatically from .md files
+
 ## Project setup
 ```
 npm install
@@ -19,6 +21,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
